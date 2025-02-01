@@ -6,6 +6,17 @@ NAGL
 | :----------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Status**         | [![GH Actions Status](https://github.com/openforcefield/openff-nagl/actions/workflows/gh-ci.yaml/badge.svg)](https://github.com/openforcefield/openff-nagl/actions?query=branch%3Amain+workflow%3Agh-ci) [![codecov](https://codecov.io/gh/openforcefield/openff-nagl/branch/main/graph/badge.svg)](https://codecov.io/gh/openforcefield/openff-nagl/branch/main) [![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/openforcefield/openff-nagl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/openforcefield/openff-nagl/context:python) |
 | **Community**      | [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12792526.svg)](https://doi.org/10.5281/zenodo.12792526)                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+The goal of this project is to predict dihedral bond energies using NAGL. An example notebook based on work by Lily Wang can be found in examples/train-gnn-dihedrals/train-gnn-central-bond.ipynb.
+
+TODO
+
+- [x] Implement basic training protocol
+- [ ] validate geometry functions
+- [ ] Train using larger dataset
+- [ ] Change input/output to mol+dihedral id/scalar
+
+
+
 
 A playground for applying graph convolutional networks to molecules, with a focus on learning continuous "atom-type" embeddings and from these classical molecule force field parameters.
 
