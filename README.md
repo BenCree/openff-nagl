@@ -3,12 +3,13 @@ NAGL Dihedral Energy Prediction
 
 The goal of this project is to predict dihedral bond energies using NAGL. An example notebook based on work by Lily Wang can be found in examples/train-gnn-dihedrals/train-gnn-central-bond.ipynb.
 
-TODO
-
-- [x] Implement basic training protocol
-- [ ] validate geometry functions
-- [ ] Train using larger dataset
-- [ ] Change input/output to mol+dihedral id/scalar
+## Current status
+- [x] Verified that c_ij coefficients are calculated via pooling (see https://github.com/openforcefield/openff-nagl/pull/163)
+- [x] Test geometry functions (see alpha_test.py)
+- [ ] Verify alpha for a test set (biaryl?)
+- [ ] Modify NAGL output to a scalar
+- [ ] Train with a QCarchive dataset
+- [ ] Train with a larger and more diverse dataset
 
 
 
